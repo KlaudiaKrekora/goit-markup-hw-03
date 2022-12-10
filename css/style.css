@@ -76,7 +76,7 @@ body {
     border-bottom: 2px rgb(0, 0, 0);
     justify-content: space-between;
     margin: 0;
-    align-items: baseline;
+    align-items: center;
     padding: 32px 0;
 }
 
@@ -106,15 +106,14 @@ body {
     color: var(--secondary-color);
     list-style-type: none;
     display: flex;
-    width: 256px;
     justify-content: space-between;
     margin: 0;
     padding-left: 0;
+    gap: 46px;
 }
 .navigation-box {
     display: flex;
-    align-items: baseline;
-    width: 492px;
+    align-items: center;
 }
 .navigation-links {
     text-decoration: none;
